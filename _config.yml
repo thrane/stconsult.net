@@ -1,0 +1,9 @@
+title: ST Consult
+description: Software Development Consultancy
+
+exclude:
+  - README.md
+  - docs
+  - Gemfile
+  - Gemfile.lock
+  - assets/Logo_black.original.png

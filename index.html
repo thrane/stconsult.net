@@ -1,0 +1,68 @@
+---
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ST Consult | Software Development Consultancy</title>
+    <meta
+      name="description"
+      content="ST Consult helps teams deliver high-quality, maintainable software systems."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-a" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-b" aria-hidden="true"></div>
+
+    {% include header.html %}
+
+    <main>
+      <section class="hero section reveal">
+        <img
+          class="profile-photo"
+          src="assets/mads-profile.png"
+          alt="Portrait of Mads Skovgaard Thrane"
+        />
+        <p class="eyebrow">Mads Skovgaard Thrane | Independent Software Consultant</p>
+        <h1>I build software that is high quality and easy to maintain.</h1>
+        <p class="lead">
+          I help teams deliver dependable systems with a strong focus on clean architecture,
+          practical engineering, and long-term maintainability. I also help teams use AI in
+          real delivery workflows where it improves speed without sacrificing quality.
+        </p>
+      </section>
+
+      <section class="section reveal" id="services">
+        <h2>What I can help with</h2>
+        <ul class="card-list">
+          <li>
+            <h3>Architecture and technical leadership</h3>
+            <p>Define practical architecture and engineering direction that keeps delivery speed high over time.</p>
+          </li>
+          <li>
+            <h3>Legacy modernization</h3>
+            <p>Improve critical systems incrementally, reducing risk while continuing feature delivery.</p>
+          </li>
+          <li>
+            <h3>Quality and testing strategy</h3>
+            <p>Raise confidence with maintainable testing practices and quality-focused development workflows.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section reveal" id="experience">
+        <h2>Selected experience</h2>
+        <p class="section-note">
+          20 years of professional experience:
+          <a href="cv.html">View CV</a>
+        </p>
+      </section>
+
+      {% include contact.html %}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>

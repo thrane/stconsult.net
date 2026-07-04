@@ -1,0 +1,27 @@
+<footer class="site-footer reveal">
+  <div class="footer-brand">
+    <p>ST Consult</p>
+    <p>Software Development Consultancy</p>
+  </div>
+
+  <nav class="footer-nav" aria-label="Footer">
+    <a
+      class="footer-link"
+      href="index.html"
+      {% if page.url == "/" or page.url == "/index.html" %}aria-current="page"{% endif %}
+      >Home</a
+    >
+    <a
+      class="footer-link"
+      href="cv.html"
+      {% if page.url == "/cv.html" %}aria-current="page"{% endif %}
+      >CV</a
+    >
+    <a
+      class="footer-link"
+      href="contact.html"
+      {% if page.url == "/contact.html" %}aria-current="page"{% endif %}
+      >Contact</a
+    >
+  </nav>
+</footer>
