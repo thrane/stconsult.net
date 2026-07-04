@@ -1,5 +1,17 @@
 title: ST Consult
 description: Software Development Consultancy
+url: "https://stconsult.net"
+baseurl: ""
+
+author:
+  name: Mads Skovgaard Thrane
+  email: mst@stconsult.net
+
+logo: /assets/Logo_black.png
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - README.md

@@ -1,6 +1,6 @@
 # Website Action Plan
 
-Last updated: 2026-07-03
+Last updated: 2026-07-04
 
 ## Goal
 Launch and iteratively improve the ST Consult website with clear, maintainable structure and truthful, high-signal content.
@@ -12,7 +12,7 @@ Launch and iteratively improve the ST Consult website with clear, maintainable s
 
 ## Current Status
 - Step 1: Complete
-- Step 2: Not started
+- Step 2: Complete
 - Step 3: In progress — header, footer, and contact block are now shared via Jekyll includes, reducing duplicate edits across pages
 
 ## Step 1 Checklist
@@ -25,6 +25,7 @@ Launch and iteratively improve the ST Consult website with clear, maintainable s
 - Do final polish pass for clarity and consistency
 
 ## Notes
+- 2026-07-04: Repository published to GitHub as `thrane/stconsult.net`, GitHub Pages enabled from `main`, custom domain `stconsult.net` connected, and HTTPS enforced.
 - 2026-07-03: CV presented as external link instead of manual timeline entries.
 - 2026-07-03: Replaced external CV link with internal `cv.html` summary page and added profile photo slot on homepage.
 - 2026-07-03: Rewrote `cv.html` from a full career-history source into a short CV targeted at .NET lead-developer searches, limited to the last 10 years of projects, plus a separate skills section.
