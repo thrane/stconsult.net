@@ -20,11 +20,14 @@ Launch and iteratively improve the ST Consult website with clear, maintainable s
 - Confirm preferred contact email
 - Confirm core services list
 - Confirm CV source (link or 2-4 entries)
-- Confirm optional links (LinkedIn/GitHub)
+- Confirm optional links (LinkedIn/GitHub) — decided: LinkedIn link only, nothing worth showing on GitHub
 - Update homepage copy in index.html
 - Do final polish pass for clarity and consistency
 
 ## Notes
+- 2026-07-04: Added technical SEO: `url`/`baseurl` and `jekyll-seo-tag`/`jekyll-sitemap` plugins in `_config.yml`, a shared `head-meta.html` include (SEO tag, favicon, Person JSON-LD), and `robots.txt`.
+- 2026-07-04: Verified the site in Google Search Console and Bing Webmaster Tools, and submitted `sitemap.xml` to both.
+- 2026-07-04: Updated the GitHub profile (`github.com/thrane`) website/social link to point to `stconsult.net` as an additional backlink; decided against adding a GitHub link on the site itself.
 - 2026-07-04: Repository published to GitHub as `thrane/stconsult.net`, GitHub Pages enabled from `main`, custom domain `stconsult.net` connected, and HTTPS enforced.
 - 2026-07-03: CV presented as external link instead of manual timeline entries.
 - 2026-07-03: Replaced external CV link with internal `cv.html` summary page and added profile photo slot on homepage.
